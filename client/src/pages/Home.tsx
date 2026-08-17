@@ -73,10 +73,10 @@ const photos = {
   seafood:
     "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=85",
   cafe: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
-  beach: "/manus-storage/jeju-west-hyeopjae_4da2af77.jpg",
-  coast: "/manus-storage/jeju-west-windmills_a3600da9.jpg",
-  mountain: "/manus-storage/jeju-south-sanbang_c9df8406.jpg",
-  sunset: "/manus-storage/jeju-east-seongsan_152b77e3.jpg",
+  beach: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=85",
+  coast: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1000&q=85",
+  mountain: "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1000&q=85",
+  sunset: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?auto=format&fit=crop&w=1000&q=85",
   stay: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=85",
   snorkel:
     "https://images.unsplash.com/photo-1498623116890-37e912163d5d?auto=format&fit=crop&w=900&q=85",
@@ -298,7 +298,7 @@ export default function Home() {
     <div className="coastal-app">
       <header className="topbar">
         <a className="brand" href="#schedule" aria-label="제주도 해안 도감 일정으로 이동">
-          <img src="/manus-storage/coastal-atlas-mark_3b52099a.png" alt="해안 항로 로고" />
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PGNpcmNsZSBjeD0nMzInIGN5PSczMicgcj0nMzEnIGZpbGw9JyMwODdlOGInLz48cGF0aCBkPSdNMzIgMTMgTDM2IDMwIEwzMiAyOCBMMjggMzAgWicgZmlsbD0nI2ZmZmZmZicvPjxwYXRoIGQ9J00zMiA0MyBMMjggMzAgTDMyIDMyIEwzNiAzMCBaJyBmaWxsPScjOWZkNmRhJy8+PHBhdGggZD0nTTEzIDMyIEwzMCAyOCBMMjggMzIgTDMwIDM2IFonIGZpbGw9JyNmZmZmZmYnIG9wYWNpdHk9JzAuODUnLz48cGF0aCBkPSdNNTEgMzIgTDM0IDM2IEwzNiAzMiBMMzQgMjggWicgZmlsbD0nI2ZmZmZmZicgb3BhY2l0eT0nMC44NScvPjxwYXRoIGQ9J00xOCA0NyBxNyAtNSAxNCAwIHQxNCAwJyBmaWxsPSdub25lJyBzdHJva2U9JyNmZmZmZmYnIHN0cm9rZS13aWR0aD0nMi40JyBzdHJva2UtbGluZWNhcD0ncm91bmQnLz48L3N2Zz4=" alt="해안 항로 로고" />
           <span>
             <b>JEJU</b>
             <em>COASTAL ATLAS</em>
@@ -424,7 +424,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <img src="/manus-storage/coastal-atlas-mark_3b52099a.png" alt="" />
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PGNpcmNsZSBjeD0nMzInIGN5PSczMicgcj0nMzEnIGZpbGw9JyMwODdlOGInLz48cGF0aCBkPSdNMzIgMTMgTDM2IDMwIEwzMiAyOCBMMjggMzAgWicgZmlsbD0nI2ZmZmZmZicvPjxwYXRoIGQ9J00zMiA0MyBMMjggMzAgTDMyIDMyIEwzNiAzMCBaJyBmaWxsPScjOWZkNmRhJy8+PHBhdGggZD0nTTEzIDMyIEwzMCAyOCBMMjggMzIgTDMwIDM2IFonIGZpbGw9JyNmZmZmZmYnIG9wYWNpdHk9JzAuODUnLz48cGF0aCBkPSdNNTEgMzIgTDM0IDM2IEwzNiAzMiBMMzQgMjggWicgZmlsbD0nI2ZmZmZmZicgb3BhY2l0eT0nMC44NScvPjxwYXRoIGQ9J00xOCA0NyBxNyAtNSAxNCAwIHQxNCAwJyBmaWxsPSdub25lJyBzdHJva2U9JyNmZmZmZmYnIHN0cm9rZS13aWR0aD0nMi40JyBzdHJva2UtbGluZWNhcD0ncm91bmQnLz48L3N2Zz4=" alt="" />
         <p>JEJU COASTAL ATLAS · 2026.08.30 — 09.03</p>
       </footer>
     </div>
